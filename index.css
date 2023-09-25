@@ -1,0 +1,187 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    box-sizing: border-box;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 90px;
+    height: 90px;
+    margin: 51px 0px 17px;
+}
+
+.container h1 {
+    width: 272px;
+    height: 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container input {
+
+    width: 317px;
+    height: 118px;
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    margin-top: 19px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #8F8F8F;
+    padding: 12px 19px;
+}
+
+.container input::placeholder {
+
+    position: absolute;
+    top: 10%;
+}
+
+
+.fromToFields input {
+
+    width: 153px;
+    height: 40px;
+    margin-top: 15px;
+    padding: 6px 10px;
+}
+
+.fromToFields input::placeholder {
+    text-align: center;
+    position: relative;
+    top: 0%;
+}
+
+.to {
+    margin-left: 5px;
+}
+
+.container button {
+
+    margin-top: 9px;
+    width: 357px;
+    height: 61px;
+    border-radius: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #04131C;
+    text-align: center;
+    padding-top: 7px;
+    background: #28A9F1;
+    border: none;
+
+}
+
+.endorsement-title {
+
+    width: 160px;
+    height: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-bottom: 15px;
+}
+
+.to-endorsement {
+
+    width: 100px;
+    height: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1924;
+    margin-bottom: 13px;
+}
+
+.endorsement-msg {
+
+    width: 286px;
+    height: 53px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1924;
+    margin-bottom: 9px;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.from-endorsement {
+
+    width: 83px;
+    height: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+.hearts {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    height: 19px;
+    margin-right: 11px;
+    margin-bottom: 7px;
+}
+
+.hearts img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.hearts p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+#endorsement-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+
+    margin-bottom: 10px;
+    width: 317px;
+    height: 129px;
+    background: #FFFFFF;
+    padding: 15px;
+}
